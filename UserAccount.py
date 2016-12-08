@@ -26,5 +26,5 @@ class UserAccount :
         #Complete this method - check the input variable, password_attempt,
         #against the password for this user (the value of the instance variable, password).
         #If, and only if, there's a match, then print the user's secret to the screen.
-        if password==password_attemp
+        if self.password==password_attempt:
             print (self.secret)
